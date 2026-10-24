@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx @wordpress/env:*)",
+      "Bash(npx wp-env:*)",
+      "Bash(npm run:*)",
+      "Bash(git status)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)"
+    ],
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Read(./wp-config.php)"
+    ]
+  }
+}

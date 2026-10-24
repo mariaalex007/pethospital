@@ -1,0 +1,27 @@
+# WordPress core and generated files
+/wp-admin/
+/wp-includes/
+/wp-*.php
+!/wp-content/
+wp-config.php
+/wp-content/uploads/
+/wp-content/upgrade/
+/wp-content/cache/
+/wp-content/backups/
+
+# Track only our own theme and mu-plugins
+/wp-content/themes/*
+!/wp-content/themes/vetri-child/
+/wp-content/plugins/
+!/wp-content/mu-plugins/
+
+# Premium theme/plugin packages and secrets
+*.zip
+.env
+.env.*
+
+# Tooling
+node_modules/
+.wp-env.override.json
+.DS_Store
+.claude/settings.local.json
